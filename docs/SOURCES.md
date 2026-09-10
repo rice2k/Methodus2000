@@ -1,80 +1,116 @@
-# Research Sources and Provenance
+# Sources & Provenance
 
-This page tracks primary, mirror, and retrospective sources used to document Methodus2000 / Methodus Toolz.
+This document tracks original-site pages, Wayback captures, mirror evidence, later preservation material, and recovery leads used by the Methodus2000 archive.
 
-## Original Methodus2000 pages
+## Original / surviving Methodus pages
 
-- Methodus 3 features: https://www.methodus2000.com/methodus3/features.htm
-- Methodus 3 updates / version history: https://www.methodus2000.com/methodus3/updates.htm
-- Methodus 3 skins: https://www.methodus2000.com/methodus3/skins.htm
+- `https://www.methodus2000.com/methodus3/features.htm`
+- `https://www.methodus2000.com/methodus3/updates.htm`
+- `https://www.methodus2000.com/methodus3/skins.htm`
 
-## Wayback Machine captures
+## Important Wayback captures
 
-### Methodus Toolz 2.x-era pages
+- Methodus 3 directory capture, 2004-02-04:
+  `https://web.archive.org/web/20040204191153/http://www.methodus2000.com/methodus3/`
+- Methodus2000 TopSiteLists listing, 2001-06-24:
+  `https://web.archive.org/web/20010624144726/http://new.topsitelists.com/topsites.cgi?ID=22&user=methodus2000&area=start`
 
-- Directory: https://web.archive.org/web/20001109010900/http://www.methodus2000.com:80/methodustoolz/
-- Downloads: https://web.archive.org/web/20001109201900/http://www.methodus2000.com:80/methodustoolz/download.htm
-- Features: https://web.archive.org/web/20001210191700/http://www.methodus2000.com:80/methodustoolz/features.htm
-- Screenshots: https://web.archive.org/web/20010119035500/http://www.methodus2000.com:80/methodustoolz/screenshots.htm
-- NetBus historical page: https://web.archive.org/web/20010111011900/http://www.methodus2000.com:80/methodustoolz/netbus.htm
+These two captures are retained as high-value archive leads even when the Wayback replay itself is temporarily unavailable.
 
-### Known historical download URLs
+## Methodus Toolz 2.x Wayback captures
 
-These are preserved as provenance/recovery leads. A URL being listed does **not** mean the binary has been verified safe or that the Wayback replay still returns the original executable.
+- Directory:
+  `https://web.archive.org/web/20001109010900/http://www.methodus2000.com:80/methodustoolz/`
+- Downloads:
+  `https://web.archive.org/web/20001109201900/http://www.methodus2000.com:80/methodustoolz/download.htm`
+- Features:
+  `https://web.archive.org/web/20001210191700/http://www.methodus2000.com:80/methodustoolz/features.htm`
+- Screenshots:
+  `https://web.archive.org/web/20010119035500/http://www.methodus2000.com:80/methodustoolz/screenshots.htm`
+- NetBus page:
+  `https://web.archive.org/web/20010111011900/http://www.methodus2000.com:80/methodustoolz/netbus.htm`
 
-- http://www.methodus2000.com/methodustoolz/methodus.exe
-- http://methodus.bizland.com/methodus.exe
-- http://methimages.hypermart.net/methodus.exe
-- http://www.oogle.net/downloads/progs/methodus.zip
-- http://www.cybernyse.com/downlowdz/methodus.zip
-- http://lenshellarchive.com/Progs/aolprogs/methodus.zip
-- http://lenshellarchive.com/Progs/aolprogs/methodus3b2.zip
+## Historical download URLs / mirrors
 
-Wayback examples:
+- `http://www.methodus2000.com/methodustoolz/methodus.exe`
+- `http://methodus.bizland.com/methodus.exe`
+- `http://methimages.hypermart.net/methodus.exe`
+- `http://www.oogle.net/downloads/progs/methodus.zip`
+- `http://www.cybernyse.com/downlowdz/methodus.zip`
+- `http://lenshellarchive.com/Progs/aolprogs/methodus.zip`
+- `http://lenshellarchive.com/Progs/aolprogs/methodus3b2.zip`
 
-- https://web.archive.org/web/20001109201900/http://methodus.bizland.com/methodus.exe
-- https://web.archive.org/web/20010424150235/http://www.oogle.net/downloads/progs/methodus.zip
-- https://web.archive.org/web/20010613064806/http://www.cybernyse.com/downlowdz/methodus.zip
-- https://web.archive.org/web/20111002120811/http://lenshellarchive.com/Progs/aolprogs/methodus3b2.zip
+## Mirror reference
 
-## Mirror/catalog evidence
+- `https://github.com/ssstonebraker/aolunderground-proggies/blob/main/programs/AOL/proggies-sorted-deduped/proggies-by-version/unknown/methodus%20toolz%203.0%20for%20aol%205.0-7.0.zip`
 
-A surviving AOL-program catalog identifies a mirrored archive named:
+This is research/provenance evidence. The archive's preferred public download target is the local `downloads/` tree once a verified file has been copied into this repository.
 
-`methodus toolz 3.0 for aol 5.0-7.0.zip`
+## Recovered screenshot evidence
 
-Reference mirror:
+Methodus Toolz 2.x originals verified in the recovered screenshot directory include:
 
-- https://github.com/ssstonebraker/aolunderground-proggies/blob/main/programs/AOL/proggies-sorted-deduped/proggies-by-version/unknown/methodus%20toolz%203.0%20for%20aol%205.0-7.0.zip
+- `phishmassim.jpg`
+- `chatpicscroll.jpg`
+- `fader.jpg`
+- `game.jpg`
+- `imanswer.jpg`
+- `macroeditor.jpg`
+- `anonymailer2.jpg`
+- `macrofont.jpg`
+- `menus1.jpg`
+- `menus2.jpg`
+- `browser.jpg`
+- `phishtank.jpg`
 
-The catalog metadata should be treated as secondary evidence unless confirmed by files inside the archive or an original Methodus page.
+Methodus 3 originals verified in the recovered screenshot directory include many GIFs such as:
 
-## Screenshot leads
+- `cdburner1.gif`
+- `dirty2.gif`
+- `keyspy2.gif`
+- `macrofont1.gif`
+- `macrofont2.gif`
+- `cdrip2.gif`
+- `crapsterdl2.gif`
+- `hotkey1.gif`
+- `hotkey2.gif`
+- `skin1.gif`
+- `skin2.gif`
+- `crapster2.gif`
+- `imfader1.gif`
+- `imfader2.gif`
+- `mp3enc2.gif`
+- `aolback1.gif`
+- `aolback2.gif`
 
-Historical screenshot filenames recovered from the old site include:
+## SWF preservation
 
-- `fader.jpg` — Color Fader
-- `phishmassim.jpg` — Phisher / Mass IMer
-- `anonymailer.jpg` — Anonymous Mailer 2.0
-- `chatpicscroll.jpg` — Chat Picture Scroller
-- `imanswer.jpg` — IM Answering Machine
-- `macroeditor.jpg` — Macro Editor
-- `macrofont.jpg` — Macro-Font Converter
-- `main.jpg` — Main Window
-- `netbusclone.jpg` — NetBus Clone 2.0
-- `browser.jpg` — No-Pop-Ups Browser
-- `phishtank.jpg` — Phish Tank
-- `game.jpg` — Shoot Dirty People game
+A user-supplied historical `bottom.swf` has been preserved directly in this repository at:
 
-Some image replays are missing or return 404; they remain useful as filename and page-layout evidence.
+`archive/site/assets/bottom.swf`
+
+Metadata:
+
+- Format signature: `FWS`
+- Flash version: `5`
+- Size: `11,465` bytes
+- SHA-256: `7302e8d2dd96e4b23bdd810fa89459f3a3d28b572ffba9a72474e6e9c508970b`
+- MD5: `a4e01d2a0336665c199bff5f23cdc271`
 
 ## Retrospective sources
 
-- JustinAKAPaste — Methodus Toolz video/archive material: https://justinakapaste.com/aol-prog-methodus-toolz-video/
-- JustinAKAPaste — creator bio archive: https://justinakapaste.com/methodus-toolz-creators/
-- Johnny Reina — recollection of Methodus and AOL-era development culture: https://johnnyreina.com/software/development/2017/07/10/how-i-started.html
-- WJunction — retrospective AOL underground history mentioning Methodus Toolz: https://www.wjunction.com/threads/in-the-beginning-part-1-usawarez-to0-limited.166624/
+- JustinAKAPaste Methodus Toolz video/archive
+- JustinAKAPaste Methodus creator-history page
+- Johnny Reina retrospective article
+- WJunction AOL underground retrospective
 
-## Safety / preservation note
+## Evidence labels
 
-Historic AOL prog archives frequently contain binaries with offensive, invasive, or malware-adjacent functions. Preserve originals read-only, record hashes, and inspect only in an isolated vintage VM/emulator. This repository documents historical functionality but does not provide operational abuse instructions.
+- `ORIGINAL-SITE` — material originating from Methodus2000.com or an archived capture of it
+- `ORIGINAL-FILE` — recovered file tied to the original distribution/site structure
+- `MIRROR` — later copy preserved elsewhere
+- `CATALOG` — metadata-only record
+- `RETROSPECTIVE` — later article, memory, or discussion
+- `UNVERIFIED` — lead not yet corroborated
+
+Historical screenshots, binaries, source references and pages are preserved for digital-history and software-archaeology purposes. Potentially abusive functionality is documented descriptively rather than operationally.
