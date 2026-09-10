@@ -1,0 +1,144 @@
+name: Import Methodus archive assets
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/import-methodus-assets.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout archive
+        uses: actions/checkout@v4
+
+      - name: Create archive folders
+        run: |
+          mkdir -p downloads assets/screenshots
+
+      - name: Import Methodus Toolz 3.0 archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          url='https://raw.githubusercontent.com/ssstonebraker/aolunderground-proggies/main/programs/AOL/proggies-sorted-deduped/proggies-by-version/unknown/methodus%20toolz%203.0%20for%20aol%205.0-7.0.zip'
+          out='downloads/methodus-toolz-3.0-aol-5.0-7.0.zip'
+          curl -fL --retry 3 --retry-delay 2 "$url" -o "$out"
+          test -s "$out"
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('downloads/methodus-toolz-3.0-aol-5.0-7.0.zip')
+          assert p.read_bytes()[:2] == b'PK', 'Downloaded archive is not a ZIP file'
+          print(f'Validated ZIP: {p} ({p.stat().st_size:,} bytes)')
+          PY
+
+      - name: Recover known Methodus Toolz screenshots
+        shell: bash
+        run: |
+          set -u
+          fetch_image() {
+            name="$1"
+            shift
+            out="assets/screenshots/$name"
+            rm -f "$out"
+            for url in "$@"; do
+              echo "Trying $name from $url"
+              if curl -fL --retry 2 --connect-timeout 20 --max-time 60 "$url" -o "$out.tmp"; then
+                if python - "$out.tmp" <<'PY'
+          import sys
+          from pathlib import Path
+          b=Path(sys.argv[1]).read_bytes()
+          ok=b.startswith(b'\xff\xd8\xff') or b.startswith(b'GIF87a') or b.startswith(b'GIF89a') or b.startswith(b'\x89PNG\r\n\x1a\n')
+          raise SystemExit(0 if ok else 1)
+          PY
+                then
+                  mv "$out.tmp" "$out"
+                  echo "Recovered $name"
+                  return 0
+                fi
+              fi
+              rm -f "$out.tmp"
+            done
+            echo "Could not recover $name in this pass"
+            return 0
+          }
+
+          fetch_image fader.jpg \
+            'https://web.archive.org/web/20010119035500id_/http://www.methodus2000.com/methodustoolz/screenshots/fader.jpg' \
+            'https://www.methodus2000.com/methodustoolz/screenshots/fader.jpg'
+
+          fetch_image phishmassim.jpg \
+            'https://web.archive.org/web/20010119035500id_/http://www.methodus2000.com/methodustoolz/screenshots/phishmassim.jpg' \
+            'https://www.methodus2000.com/methodustoolz/screenshots/phishmassim.jpg'
+
+          fetch_image main.jpg \
+            'https://web.archive.org/web/20010119035500id_/http://www.methodus2000.com/methodustoolz/screenshots/main.jpg'
+
+          fetch_image anonymailer.jpg \
+            'https://web.archive.org/web/20010119035500id_/http://www.methodus2000.com/methodustoolz/screenshots/anonymailer.jpg'
+
+          fetch_image browser.jpg \
+            'https://web.archive.org/web/20010119035500id_/http://www.methodus2000.com/methodustoolz/screenshots/browser.jpg'
+
+          fetch_image chatpicscroll.jpg \
+            'https://web.archive.org/web/20010119035500id_/http://www.methodus2000.com/methodustoolz/screenshots/chatpicscroll.jpg'
+
+          fetch_image imanswer.jpg \
+            'https://web.archive.org/web/20010119035500id_/http://www.methodus2000.com/methodustoolz/screenshots/imanswer.jpg'
+
+          fetch_image macroeditor.jpg \
+            'https://web.archive.org/web/20010119035500id_/http://www.methodus2000.com/methodustoolz/screenshots/macroeditor.jpg'
+
+          fetch_image macrofont.jpg \
+            'https://web.archive.org/web/20010119035500id_/http://www.methodus2000.com/methodustoolz/screenshots/macrofont.jpg'
+
+          fetch_image netbusclone.jpg \
+            'https://web.archive.org/web/20010119035500id_/http://www.methodus2000.com/methodustoolz/screenshots/netbusclone.jpg'
+
+          fetch_image phishtank.jpg \
+            'https://web.archive.org/web/20010119035500id_/http://www.methodus2000.com/methodustoolz/screenshots/phishtank.jpg'
+
+          fetch_image game.jpg \
+            'https://web.archive.org/web/20010119035500id_/http://www.methodus2000.com/methodustoolz/screenshots/game.jpg'
+
+      - name: Write hashes and inventory
+        shell: bash
+        run: |
+          set -euo pipefail
+          {
+            echo '# SHA-256 checksums'
+            echo
+            find downloads assets/screenshots -type f ! -name README.md ! -name SHA256SUMS.txt -print0 | sort -z | xargs -0 sha256sum || true
+          } > SHA256SUMS.txt
+
+          {
+            echo '# Imported Methodus files'
+            echo
+            echo 'These files are hosted directly in the Rice2k Methodus2000 repository.'
+            echo
+            echo '## Downloads'
+            find downloads -maxdepth 1 -type f ! -name README.md -printf '- `%f` — %s bytes\n' | sort
+            echo
+            echo '## Screenshots'
+            find assets/screenshots -maxdepth 1 -type f ! -name README.md -printf '- `%f` — %s bytes\n' | sort
+            echo
+            echo 'See `SHA256SUMS.txt` for integrity hashes.'
+          } > docs/LOCAL-FILES.md
+
+      - name: Commit imported assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'rice2k-archive-bot'
+          git config user.email '43998502+rice2k@users.noreply.github.com'
+          git add downloads assets/screenshots SHA256SUMS.txt docs/LOCAL-FILES.md
+          if git diff --cached --quiet; then
+            echo 'No new assets to commit.'
+            exit 0
+          fi
+          git commit -m 'Import Methodus binaries and screenshots into archive'
+          git push
