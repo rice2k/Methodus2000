@@ -2,6 +2,10 @@
 
 This is a preservation index for historical Methodus files and mirrors. Links are recorded for provenance and recovery research. Old binaries may be unsafe; inspect only in an isolated VM/emulator and verify hashes before use.
 
+## Repository download policy
+
+Primary public download links should point only to binaries physically stored and integrity-checked in `rice2k/Methodus2000`. Third-party links below are research/provenance sources used to recover the files, not the preferred final download location.
+
 ## Confirmed catalog/mirror lead
 
 A preserved AOL program catalog records:
@@ -11,7 +15,9 @@ A preserved AOL program catalog records:
 - Approximate catalog size: **4.7 MB**
 - Catalog label: `methodus3b2`
 - Mirror: https://github.com/ssstonebraker/aolunderground-proggies/blob/main/programs/AOL/proggies-sorted-deduped/proggies-by-version/unknown/methodus%20toolz%203.0%20for%20aol%205.0-7.0.zip
-- Raw mirror: https://raw.githubusercontent.com/ssstonebraker/aolunderground-proggies/main/programs/AOL/proggies-sorted-deduped/proggies-by-version/unknown/methodus%20toolz%203.0%20for%20aol%205.0-7.0.zip
+- Git object SHA reported by the surviving mirror: `2edf3edd2f4189d12e3a05e06346ff6c6eeff78f`
+
+The connected GitHub interface confirms the file exists at that mirror, but it does not expose its binary bytes through the text fetch operation. The archive therefore still treats local transfer as pending rather than pretending this is already stored under `downloads/`.
 
 ## Original / historical Methodus URLs
 
@@ -27,19 +33,40 @@ A preserved AOL program catalog records:
 
 ## Methodus 3 beta/build filename leads
 
-Recovered research notes reference old `downloadmethodus.bizland.com` executable names such as:
+Official/recovered research material supports the Build 1–9 history. Filename leads include:
 
 - `methodus3b1.exe`
 - `methodus3b2.exe`
-- later numbered Methodus 3 beta/build executables, including a Build 8 lead
+- `methodus3b3.exe`
+- `methodus3b4.exe`
+- `methodus3b5.exe`
+- `methodus3b6.exe`
+- `methodus3b7.exe`
+- `methodus3b8.exe`
+- `methodus3b9.exe`
 
-These should be treated as filename evidence until the actual archived binaries are recovered and hashed.
+### Build 9 sample/hash lead
+
+A 2026 Hybrid Analysis search result contains an uploaded PE32 sample under the exact filename `methodus3b9.exe` with SHA-256:
+
+`662bcecbe228032757fd594fa0fdf662d9d2fec1ba858a57bb1011278f1550f9`
+
+This is valuable corroborating evidence that a file under the historical filename survives. It is **not yet labeled an authentic original distribution** because the sample still needs provenance matching against the official Methodus URL, file size/version resources, embedded strings, or another independently preserved copy. The analysis service labels the sample malicious/high risk, so it must not be executed on a normal machine.
+
+## Source-code download lead
+
+Recovered Methodus2000 mirror logs expose the concrete source ZIP:
+
+- `https://www.methodus2000.com/vb/pindonkey.zip`
+
+The original VB source index describes Pin The Donkey as a game made from Methodus Toolz and says its source was being given away. A later mirror attempt recorded a 404, so Wayback/old-archive recovery is still required.
 
 ## Recovery status conventions
 
 - **verified** — file recovered, hash recorded, content inspected safely
 - **mirrored** — file exists in a known public archive/mirror but has not yet been independently verified here
 - **archive-lead** — Wayback or historical link exists but replay may return HTML/404 rather than the original binary
+- **sample-hash-lead** — a matching filename/sample survives in an analysis or malware corpus, but original provenance is not yet established
 - **filename-only** — filename/source mention recovered but no file yet
 - **missing** — known file could not currently be recovered
 
