@@ -11,6 +11,36 @@ A surviving Methodus2000 Gnutella research page goes further: it states that **C
 Historical page:
 - https://www.methodus2000.com/gnutella/
 
+## Original Methodus2000 VB source index
+
+The recovered original `vb/sources.htm` page is preserved in this repository at `archive/site/vb/sources.html`. It identifies several source releases tied directly to Methodus or its components.
+
+### Pin The Donkey — concrete source ZIP lead
+
+The original source index describes **Pin The Donkey** as a game made from Methodus Toolz and says the source code was being given away.
+
+Recovered HTTrack logs expose the underlying source ZIP URL:
+
+- `https://www.methodus2000.com/vb/pindonkey.zip`
+
+A later mirror attempt returned HTTP 404, but an older archive log records the same URL and local intended path. This makes `pindonkey.zip` a concrete original-source recovery target rather than a reconstructed filename.
+
+### Other Methodus-linked source targets
+
+The original source index also identifies or describes source for:
+
+- **Bambi Kill** — described as a game from Methodus Toolz.
+- **Chat Clear** — described as the source to the Chat Clearer from Methodus Toolz.
+- **Room Buster** — source for a room buster like the one in Methodus.
+- **Key Logger** — example described as being like the one in Methodus Toolz.
+- **Firewall** — described as the same idea as Hack Protector in Methodus.
+- **Chat Scan** — source to a Chat Scan control similar to Methscan.
+- **Anonymailer** — source for an early Anonymailer version.
+- **CD Writer** — source demonstrating the CD Writer control.
+- **API Spy / code-generator utilities**, macro tools and related Visual Basic examples.
+
+Each linked wrapper/page and its underlying ZIP filename should be recovered from Wayback, old site mirrors, local HTTrack trees, or other AOL-program archives.
+
 ## Planet Source Code lead
 
 A preserved Planet Source Code index contains an entry attributed to **Jump0ffabuilding** dated **January 17, 2001**:
@@ -51,6 +81,7 @@ Useful strings for archive, disk, ZIP, GitHub, FTP and Wayback searches:
 - `Methodus 3`
 - `Fungus Eye Entertainment`
 - `Crapster`
+- `pindonkey.zip`
 - `methodus3b1.exe` through `methodus3b9.exe`
 - `methodus.exe`
 - `methodus.zip`
