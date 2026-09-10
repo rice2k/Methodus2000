@@ -1,13 +1,20 @@
 # Methodus Toolz 2 Screenshot Gallery
 
-These are recovered original Methodus Toolz 2.x screenshots preserved directly in this repository.
+The recovered Methodus Toolz 2.x screenshot directory contains real original image files. They are being copied here only after byte-size/integrity verification.
 
-## Menu / interface view
+## Verified recovered originals awaiting clean repository transfer
 
-![Methodus Toolz 2 menu view](menus1.jpg)
+- `phishmassim.jpg`
+- `chatpicscroll.jpg`
+- `fader.jpg`
+- `game.jpg`
+- `imanswer.jpg`
+- `macroeditor.jpg`
+- `anonymailer2.jpg`
+- `macrofont.jpg`
+- `menus1.jpg`
+- `menus2.jpg`
+- `browser.jpg`
+- `phishtank.jpg`
 
-Original filename: `menus1.jpg`
-
-Additional verified originals from the recovered Methodus Toolz screenshot folder include `phishmassim.jpg`, `chatpicscroll.jpg`, `fader.jpg`, `game.jpg`, `imanswer.jpg`, `macroeditor.jpg`, `anonymailer2.jpg`, `macrofont.jpg`, `menus2.jpg`, `browser.jpg`, and `phishtank.jpg`.
-
-More of these are being copied into this repository as verified original files.
+The previous `menus1.jpg` repository transfer was removed because its byte count did not match the recovered source. This gallery will display it again only after an exact-byte copy is verified.
