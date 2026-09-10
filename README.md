@@ -20,11 +20,11 @@
 
 ## Screenshots
 
-### Methodus 3 — locally hosted in this repository
+### Methodus 3 — verified local files
 
 ![Methodus 3 Crapster](assets/screenshots/methodus-3/crapster2.gif)
 
-![Methodus 3 CD Burner](assets/screenshots/methodus-3/cdburner1.gif)
+![Methodus 3 KeySpy](assets/screenshots/methodus-3/keyspy2.gif)
 
 ![Methodus 3 Font-to-Macro Converter](assets/screenshots/methodus-3/macrofont2.gif)
 
@@ -32,33 +32,31 @@
 
 ![Methodus 3 game](assets/screenshots/methodus-3/dirty2.gif)
 
-[Open the full Methodus 3 screenshot gallery](assets/screenshots/methodus-3/README.md)
+[Open the Methodus 3 screenshot gallery](assets/screenshots/methodus-3/README.md)
 
-### Methodus Toolz 2.x — locally hosted in this repository
+### Methodus Toolz 2.x
 
-![Methodus Toolz 2 menu](assets/screenshots/methodus-toolz-2/menus1.jpg)
-
-[Open the Methodus Toolz 2 screenshot gallery](assets/screenshots/methodus-toolz-2/README.md)
-
-Additional original Methodus Toolz 2 screenshots have been verified in the recovered archive and are being copied into this repository, including `fader.jpg`, `phishmassim.jpg`, `chatpicscroll.jpg`, `game.jpg`, `imanswer.jpg`, `macroeditor.jpg`, `macrofont.jpg`, `anonymailer2.jpg`, `menus2.jpg`, `browser.jpg`, and `phishtank.jpg`.
+The recovered Methodus Toolz 2 screenshot folder contains verified originals including `fader.jpg`, `phishmassim.jpg`, `chatpicscroll.jpg`, `game.jpg`, `imanswer.jpg`, `macroeditor.jpg`, `macrofont.jpg`, `anonymailer2.jpg`, `menus1.jpg`, `menus2.jpg`, `browser.jpg`, and `phishtank.jpg`. These are being integrity-checked before being attached to the public gallery.
 
 > Historical screenshots may depict features that would now be considered abusive or unsafe. They are retained for software-history and preservation research, not as operating instructions.
 
-## Preserved Flash / SWF assets
+## Preserved Flash / SWF research
 
-The uploaded historical `bottom.swf` is preserved directly in this repository:
+A historical `bottom.swf` supplied for this archive has been verified locally as:
 
-- [Download `bottom.swf`](archive/site/assets/bottom.swf)
 - Flash signature: `FWS`
 - Flash version: `5`
-- Size: `11,465` bytes
+- Exact size: `11,465` bytes
 - SHA-256: `7302e8d2dd96e4b23bdd810fa89459f3a3d28b572ffba9a72474e6e9c508970b`
+- MD5: `a4e01d2a0336665c199bff5f23cdc271`
+
+A previous repository transfer was rejected from the archive because its byte count did not match the verified original. The raw SWF will only be exposed as a download after an exact-byte integrity match.
 
 ## Downloads & files
 
-The long-term archive policy is simple: **primary Download buttons point to files physically stored in this repository.** External mirrors are kept only as provenance and recovery leads.
+Primary Download buttons point only to files physically stored and integrity-checked in this repository. External mirrors are retained as provenance and recovery leads.
 
-Known Methodus program versions and filenames are tracked in [Downloads & Recovery](docs/DOWNLOADS.md) and [Recovery Status](docs/RECOVERY-STATUS.md). Actual binaries will be linked here as they are successfully recovered and copied into `downloads/`.
+Known Methodus program versions and filenames are tracked in [Downloads & Recovery](docs/DOWNLOADS.md) and [Recovery Status](docs/RECOVERY-STATUS.md). Actual binaries are linked here only after successful recovery and verification.
 
 ## Important archive leads
 
