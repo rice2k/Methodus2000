@@ -8,6 +8,12 @@ These are recovered original Methodus 3 web/site screenshots preserved directly 
 
 Original filename: `crapster2.gif`
 
+## CD Burner
+
+![Methodus 3 CD Burner](cdburner1.gif)
+
+Original filename: `cdburner1.gif`
+
 ## Font-to-Macro Converter
 
 ![Methodus 3 Font to Macro Converter](macrofont2.gif)
@@ -20,11 +26,11 @@ Original filename: `macrofont2.gif`
 
 Original filename: `mp3enc2.gif`
 
-## Built-in game
+## Shoot Dirty People Game
 
-![Methodus 3 game screenshot](dirty2.gif)
+![Methodus 3 game](dirty2.gif)
 
-Original filename: `dirty2.gif` — recovered from the original Methodus 3 screenshot folder.
+Original filename: `dirty2.gif`
 
 More images from the recovered Methodus2000 screenshot folder are being added as they are verified and copied from the archive.
 
