@@ -4,9 +4,9 @@
 [![Era](https://img.shields.io/badge/Era-2000--2002-0078D4?style=for-the-badge)](docs/VERSIONS.md)
 [![Project](https://img.shields.io/badge/Project-Methodus%20Toolz-00a651?style=for-the-badge)](#what-was-methodus-toolz)
 [![Language](https://img.shields.io/badge/Original%20Development-VB6-5C2D91?style=for-the-badge)](docs/CODE-RESEARCH.md)
-[![Status](https://img.shields.io/badge/Status-Active%20Research-orange?style=for-the-badge)](docs/SOURCES.md)
+[![Status](https://img.shields.io/badge/Status-Active%20Recovery-orange?style=for-the-badge)](docs/SOURCES.md)
 
-> A preservation and research archive for **Methodus Toolz / Methodus2000.com**, an all-in-one AOL/AIM-era utility suite associated with the early-2000s AOL "prog" scene.
+> A preservation and research archive for **Methodus Toolz / Methodus2000.com**, an all-in-one AOL/AIM-era Windows utility suite from the early-2000s AOL “prog” scene.
 
 ## Quick access
 
@@ -15,62 +15,125 @@
 [![Features](https://img.shields.io/badge/View-Features-00a651?style=flat-square)](docs/FEATURES.md)
 [![How It Worked](https://img.shields.io/badge/How-It%20Worked-5C2D91?style=flat-square)](docs/HOW-IT-WORKED.md)
 [![Screenshots](https://img.shields.io/badge/View-Screenshots-e83e8c?style=flat-square)](#screenshots)
-[![Downloads](https://img.shields.io/badge/View-Downloads-f39c12?style=flat-square)](#downloads--files)
-[![Source Research](https://img.shields.io/badge/Source-Code%20Research-darkgreen?style=flat-square)](docs/SOURCE-CODE-LEADS.md)
-
-## Archive navigation
-
-| Section | What it contains |
-| --- | --- |
-| [History](docs/HISTORY.md) | Methodus background, AOL-era context, creators, and the Methodus 3 build timeline |
-| [Versions](docs/VERSIONS.md) | Methodus 1.x, 2.x, 2.01/2.1, Methodus 3 Builds 1-9, filenames and compatibility |
-| [How It Worked](docs/HOW-IT-WORKED.md) | Architecture, menu organization, AOL/AIM integration, Crapster, FTP, web server, multimedia and UI behavior |
-| [Feature Catalog](docs/FEATURES.md) | Detailed feature-by-feature index for Methodus Toolz 2.x and Methodus 3 |
-| [Creators & Community](docs/CREATORS-AND-COMMUNITY.md) | ChiefDreegFleer, Jump0ffABuilding, Fungus Eye Entertainment, skin creators and scene context |
-| [Downloads & Recovery](docs/DOWNLOADS.md) | Known filenames, historical mirrors, Wayback leads, and recovery status |
-| [Sources & Provenance](docs/SOURCES.md) | Original pages, archived captures, mirror evidence, screenshot leads, and retrospective sources |
-| [External Research](docs/EXTERNAL-RESEARCH.md) | Later preservation pages, creator-history leads and research notes |
-| [Source-Code Research](docs/CODE-RESEARCH.md) | Current source-code status, Visual Basic/source-file leads, and research methodology |
-| [Source-Code Leads](docs/SOURCE-CODE-LEADS.md) | High-value VB6/Crapster/Planet Source Code recovery leads |
-| [Preserved Methodus Toolz Site](archive/site/methodustoolz/) | Recovered Methodus Toolz 2.x HTML pages |
-| [Preserved Methodus 3 Site](archive/site/methodus3/) | Recovered Methodus 3 HTML pages |
+[![Downloads](https://img.shields.io/badge/View-Downloads-f39c12?style=flat-square)](#downloads--recovered-files)
+[![Source Research](https://img.shields.io/badge/Source-Code%20Research-darkgreen?style=flat-square)](docs/CODE-RESEARCH.md)
 
 ## Screenshots
 
-The archive has confirmed screenshot evidence from the original Methodus site and recovered research files. The goal is to keep both the visual material and the original filenames so missing images can continue to be recovered.
+These screenshots are **real recovered Methodus files stored directly in this repository**. They are rendered from repository-relative paths so they remain under the Rice2k Methodus2000 archive rather than depending on an outside image host.
 
-### Recovered / confirmed screenshot files
+### Crapster — Methodus 3
 
-| Screenshot | Feature | Status / link |
+[![Methodus 3 Crapster screenshot](assets/screenshots/methodus-3/crapster2.gif)](assets/screenshots/methodus-3/crapster2.gif)
+
+`crapster2.gif` — recovered from the Methodus 3 screenshot archive in the preservation copy of Methodus2000.com.
+
+### Font-to-Macro Converter — Methodus 3
+
+[![Methodus 3 Font to Macro Converter](assets/screenshots/methodus-3/macrofont2.gif)](assets/screenshots/methodus-3/macrofont2.gif)
+
+`macrofont2.gif` — original Methodus 3 web screenshot asset.
+
+### WAV / MP3 Encoder — Methodus 3
+
+[![Methodus 3 WAV to MP3 Encoder](assets/screenshots/methodus-3/mp3enc2.gif)](assets/screenshots/methodus-3/mp3enc2.gif)
+
+`mp3enc2.gif` — original Methodus 3 web screenshot asset.
+
+[**Open the Methodus 3 screenshot gallery →**](assets/screenshots/methodus-3/)
+
+### More recovered images being transferred
+
+The connected Methodus archive also contains real Methodus 3 images for Crapster downloads, IM Fader, skins, HotKeys, CD Burner/Ripper, KeySpy, games, and other features. These are being copied into this repository after their Methodus folder provenance is verified.
+
+Known Methodus Toolz 2 screenshot names include `fader.jpg`, `phishmassim.jpg`, `main.jpg`, `anonymailer.jpg`, `browser.jpg`, `chatpicscroll.jpg`, `imanswer.jpg`, `macroeditor.jpg`, `macrofont.jpg`, `netbusclone.jpg`, `phishtank.jpg`, and `game.jpg`.
+
+## Downloads & recovered files
+
+### Local-download policy
+
+**The primary Download buttons on this README will point only to files physically stored in `rice2k/Methodus2000`.** Third-party mirrors and Wayback URLs are kept in the research/provenance documents, not presented here as if they were local downloads.
+
+The repository is currently recovering and verifying the original program binaries. Until a binary is physically present under [`downloads/`](downloads/), it is listed as a recovery target rather than given a misleading Download button.
+
+### Known Methodus program files
+
+| File / package | Version or purpose | Local repository status |
 | --- | --- | --- |
-| `fader.jpg` | Color Fader | **Recovered in the research archive**; being preserved as an original historical asset |
-| `phishmassim.jpg` | Phisher / Mass IMer | **Recovered in the research archive** |
-| `main.jpg` | Main Window | Original-site filename confirmed; recovery tracking ongoing |
-| `anonymailer.jpg` | Anonymous Mailer | Original-site filename confirmed |
-| `browser.jpg` | No-Pop-Ups Browser | Original-site filename confirmed |
-| `chatpicscroll.jpg` | Chat Picture Scroller | Original-site filename confirmed |
-| `imanswer.jpg` | IM Answering Machine | Original-site filename confirmed |
-| `macroeditor.jpg` | Macro Editor | Original-site filename confirmed |
-| `macrofont.jpg` | Macro-Font Converter | Original-site filename confirmed |
-| `netbusclone.jpg` | NetBus Clone | Original-site filename confirmed |
-| `phishtank.jpg` | Phish Tank | Original-site filename confirmed |
-| `game.jpg` | Shoot Dirty People Game | Original-site filename confirmed |
+| `methodus.exe` | Methodus Toolz 2.x-era distribution | **Recovery target** |
+| `methodus.zip` | Methodus Toolz 2.x archive | **Recovery target** |
+| `methodus3b1.exe` | Methodus 3 Build 1 | **Recovery target** |
+| `methodus3b2.exe` | Methodus 3 Build 2 | **Recovery target** |
+| `methodus3b2.zip` | Methodus 3 archive | **Recovery target** |
+| `methodus3b3.exe` | Methodus 3 Build 3 | **Recovery target** |
+| `methodus3b4.exe` | Methodus 3 Build 4 | **Recovery target** |
+| `methodus3b5.exe` | Methodus 3 Build 5 | **Recovery target** |
+| `methodus3b6.exe` | Methodus 3 Build 6 | **Recovery target** |
+| `methodus3b7.exe` | Methodus 3 Build 7 | **Recovery target** |
+| `methodus3b8.exe` | Methodus 3 Build 8 | **Recovery target** |
+| `methodus3b9.exe` | Methodus 3 Build 9 / Windows XP-compatible release | **Recovery target; original download-page reference verified** |
+| `methodus toolz 3.0 for aol 5.0-7.0.zip` | Preserved Methodus 3 package, roughly 4.7 MB | **Mirror copy identified; local transfer still in progress** |
 
-### Methodus 3 screenshot set
+[**Browse the local downloads folder →**](downloads/)
 
-The surviving Methodus 3 feature page references screenshots for:
+[**Read full download/recovery research →**](docs/DOWNLOADS.md)
 
-- Crapster main/file-sharing interface
-- Crapster download interface
-- IM Color Fader
-- Skin/customization system
+> **Historical binary warning:** AOL-era executables and archives should be treated as untrusted historical software. Preservation copies should remain read-only and be examined only with appropriate isolation. This repository documents the software and does not provide instructions for misuse of historical security-related features.
+
+## What was Methodus Toolz?
+
+Methodus Toolz was designed as an unusually broad **all-in-one Windows utility suite**. Surviving original Methodus pages describe a goal of combining many different utility types into one application. Its feature set covered AOL/AIM tools, chat and IM functions, color faders, bots, macro tools, skins, mail tools, browser/network utilities, games, multimedia tools, developer utilities, and more.
+
+Methodus 3 expanded the idea substantially with **Crapster** decentralized file sharing, FTP functionality, a web server, CD ripping/burning, WAV-to-MP3 conversion, IM management, extensive skinning, hotkeys, games, and AOL/AIM compatibility modes.
+
+Some historical functions involved phishing, keylogging, spoofing, remote-control concepts, or disruptive AOL behavior. They are preserved here as **software-history evidence**, not as operating instructions.
+
+## How Methodus was organized
+
+Surviving original pages show Methodus as many utilities collected behind menu families such as:
+
+- **Main** — program options and compatibility configuration
+- **Toolz** — general utilities, converters, HotKeys, server/developer-style tools
+- **Chat** — bots, macro/picture tools and chat-related functions
+- **IMz** — IM faders, IM Manager, answering-machine and messaging utilities
+- **Games** — built-in games
+- **Other** — mail, networking, CD, FTP and AOL-specific features
+
+Methodus 3 supported separate **AOL vs. AIM compatibility settings**. Its original FAQ says users selected these from the compatibility section of Options. The same FAQ describes Methodus 3 as **15-day shareware** with a historical registration price of **$9.95**. See the preserved [Methodus 3 FAQ](archive/site/methodus3/faq.html).
+
+## Versions at a glance
+
+| Generation | Current evidence |
+| --- | --- |
+| **Methodus 1.x** | Confirmed by original Methodus 2 material referring back to 1.0; detailed build history still being reconstructed |
+| **Methodus Toolz 2.0** | Strong original-site feature, screenshot, skin and download evidence |
+| **Methodus 2.01 / 2.1** | Preserved download-page and research references |
+| **Methodus 3 Build 1** | July 29, 2001 |
+| **Methodus 3 Build 2** | August 3, 2001 |
+| **Methodus 3 Build 3** | August 6, 2001 |
+| **Methodus 3 Build 4** | August 7, 2001 |
+| **Methodus 3 Build 5** | August 8, 2001 |
+| **Methodus 3 Build 6** | August 10, 2001 |
+| **Methodus 3 Build 7** | August 16, 2001 |
+| **Methodus 3 Build 8** | August 21, 2001 |
+| **Methodus 3 Build 9** | January 12, 2002; original site says fully compatible with Windows XP |
+
+[**Full build-by-build version history →**](docs/VERSIONS.md)
+
+## Major Methodus 3 features
+
+The surviving original feature material documents, among other components:
+
+- Crapster decentralized file sharing
+- Color Faders
+- Customizable skins/interface
 - AOL wallpaper
 - Anonymous Mailer
 - Games
 - No-Pop-Ups Browser
 - CD Burner and CD Ripper
 - Chat Picture Scroller
-- FTP Client
+- FTP Client and FTP Server
 - HotKeys
 - IM Manager
 - KeySpy
@@ -78,203 +141,74 @@ The surviving Methodus 3 feature page references screenshots for:
 - Font-to-Macro Converter
 - Mass IMer
 - WAV-to-MP3 Converter
-- Options
+- Options / AOL-AIM compatibility
 - Room Buster
+- Web Server
+- Whiteboard Chat
+- Screen Name Collector
+- IM Answering Machine
+- API Spy
+- Bots
+- Screen Savers
 
-**Original screenshot indexes / evidence:**
+[**Complete feature catalog →**](docs/FEATURES.md)
 
-- [Wayback: Methodus Toolz Screenshots](https://web.archive.org/web/20010119035500/http://www.methodus2000.com:80/methodustoolz/screenshots.htm)
-- [Methodus 3 Features and screenshot references](https://www.methodus2000.com/methodus3/features.htm)
-- [Preserved Methodus Toolz feature page](archive/site/methodustoolz/features.html)
+## Visual Basic / source-code evidence
 
-> Historical screenshots may show features that would now be considered abusive or unsafe. They are retained for historical documentation and software-preservation research.
+Original Methodus2000 material directly states that Methodus Toolz was made in **Visual Basic** and references **Visual Basic 6.0 Professional**.
 
-## Downloads & files
+A newly recovered original Methodus2000 **VB Sources** page provides stronger evidence that Methodus-related source was publicly distributed. It identifies:
 
-### Best-known Methodus program archive
+- **Pin The Donkey** source as a game made from Methodus Toolz
+- **Bambi Kill** as a Methodus Toolz game
+- **Chat Clear** as the source to the Chat Clearer from Methodus Toolz
+- Key Logger source “like” the Methodus feature
+- Room Buster source “like in Methodus”
+- Firewall source corresponding to Methodus **Hack Protector**
+- Chat Scan source similar to **Methscan**
+- the creator’s first Anonymailer source
+- related API, macro, web-server and CD-writer source examples
 
-**Methodus Toolz 3.0 for AOL 5.0–7.0**  
-Filename: `methodus toolz 3.0 for aol 5.0-7.0.zip`  
-Approximate size: **4.7 MB**  
-Catalog label: `methodus3b2`
+The recovered source index is preserved at [`archive/site/vb/sources.html`](archive/site/vb/sources.html). The actual linked VB source archives remain high-priority recovery targets.
 
-[![Download Archive Lead](https://img.shields.io/badge/Download-Methodus%20Toolz%203.0%20Archive-f39c12?style=for-the-badge)](https://github.com/ssstonebraker/aolunderground-proggies/blob/main/programs/AOL/proggies-sorted-deduped/proggies-by-version/unknown/methodus%20toolz%203.0%20for%20aol%205.0-7.0.zip)
+[**Source-code research →**](docs/CODE-RESEARCH.md)
 
-### Known original filenames
+[**Source-code recovery leads →**](docs/SOURCE-CODE-LEADS.md)
 
-| File | Version / purpose | Current status |
-| --- | --- | --- |
-| `methodus.exe` | Methodus Toolz 2.x-era installer/program | Historical original and mirror URLs documented |
-| `methodus.zip` | Methodus Toolz archive | Multiple historical mirror leads documented |
-| `methodus3b1.exe` | Methodus 3 Build 1 | Filename/version lead |
-| `methodus3b2.exe` | Methodus 3 Build 2 | Filename/version lead |
-| `methodus3b2.zip` | Methodus 3 archive | Historical mirror lead |
-| `methodus3b3.exe` | Methodus 3 Build 3 | Version reconstruction lead |
-| `methodus3b4.exe` | Methodus 3 Build 4 | Version reconstruction lead |
-| `methodus3b5.exe` | Methodus 3 Build 5 | Version reconstruction lead |
-| `methodus3b6.exe` | Methodus 3 Build 6 | Version reconstruction lead |
-| `methodus3b7.exe` | Methodus 3 Build 7 | Version reconstruction lead |
-| `methodus3b8.exe` | Methodus 3 Build 8 | Version reconstruction lead |
-| `methodus3b9.exe` | Methodus 3 Build 9 | **Directly referenced by the recovered official Methodus 3 downloads page** |
-| `vbrun60.exe` | Visual Basic 6 runtime | Historical dependency/support lead |
-| `netbuspatch.zip` | NetBus-related historical support file | Archive lead only |
+## Archive navigation
 
-[![Full Download Research](https://img.shields.io/badge/Open-Full%20Download%20Research-0078D4?style=flat-square)](docs/DOWNLOADS.md)
-[![Original Methodus Toolz Downloads Page](https://img.shields.io/badge/Preserved-Methodus%20Toolz%20Downloads-6f42c1?style=flat-square)](archive/site/methodustoolz/downloads.html)
-[![Original Methodus 3 Downloads Page](https://img.shields.io/badge/Preserved-Methodus%203%20Downloads-5C2D91?style=flat-square)](archive/site/methodus3/downloads.html)
-
-> **Safety:** These are historical binaries from the AOL-prog era. Treat all recovered executables and ZIPs as untrusted. Preserve originals read-only, hash them, and inspect only in an isolated vintage VM/emulator. This repository documents the software; it does not provide instructions for abusing historical features.
-
-## What was Methodus Toolz?
-
-Methodus Toolz was designed as an unusually broad **all-in-one Windows utility suite**. A preserved original Methodus 2.0 feature page says the project aimed to contain practically every type of utility possible. Its documented functions spanned AOL/AIM tools, chat and IM utilities, color faders, mail tools, encryption, bots, skins, answering machines, macro/picture tools, games, browser utilities, and many other components.
-
-Methodus 3 expanded that idea considerably. It added **Crapster** decentralized file sharing, FTP client/server functionality, a lightweight web server, CD ripping/burning, WAV-to-MP3 conversion, an IM manager, customizable skins, macro tools, hotkeys, games, developer/network utilities, and AOL/AIM integration.
-
-Some historical features involved credential theft, remote control, spoofing, keylogging, or disruptive AOL behavior. They are documented here strictly as **historical software-archive evidence**, not as operating instructions.
-
-## How the program was organized
-
-Methodus was essentially a collection of many utilities inside one VB-era Windows application. Surviving original pages place tools into menu families such as:
-
-- **Main** — options and global configuration
-- **Toolz** — general utilities, hotkeys, converters, web server and other tools
-- **Chat** — macro tools, picture scrolling, bots and chat-related functions
-- **IMz** — IM faders, IM Manager, answering-machine and mass-message tools
-- **Games** — built-in games
-- **Other** — FTP client, CD tools, browser utility and AOL-specific features
-
-Methodus 3 could switch between AOL and AIM modes, used ActiveX/COM components typical of Visual Basic software, and supported a skin system that changed colors, buttons, window appearance, startup screens and other interface elements.
-
-See [How It Worked](docs/HOW-IT-WORKED.md) for a full architectural breakdown.
-
-## Verified development evidence
-
-Original Methodus2000 material states that Methodus Toolz was made in **Visual Basic** and references **Visual Basic 6.0 Professional**. A surviving Methodus2000 Gnutella research page says **Crapster**, an integral Methodus 3 component, was created in the **Visual Basic 6 environment** and that a research package included VB6-compatible Crapster source code and related analysis tools.
-
-A preserved Planet Source Code index also records a **January 17, 2001** submission by **Jump0ffabuilding** titled:
-
-> *Make a form a cool shape with using masks and BitBlt as shown in Methodus Toolz*
-
-That submission is now a high-priority source-code recovery lead. See [Source-Code Leads](docs/SOURCE-CODE-LEADS.md).
-
-## Versions at a glance
-
-| Generation | Current evidence |
+| Section | Contents |
 | --- | --- |
-| **Methodus 1.x** | Confirmed by the original 2.0 page referring back to 1.0; detailed release history still missing |
-| **Methodus Toolz 2.0** | Strong original-site feature, screenshot, skin and download evidence |
-| **Methodus 2.01 / 2.1** | Preserved download-page/research references; exact chronology still under reconstruction |
-| **Methodus 3 Build 1** | 2001-07-29 |
-| **Methodus 3 Build 2** | 2001-08-03 |
-| **Methodus 3 Build 3** | 2001-08-06 |
-| **Methodus 3 Build 4** | 2001-08-07 |
-| **Methodus 3 Build 5** | 2001-08-08 |
-| **Methodus 3 Build 6** | 2001-08-10 |
-| **Methodus 3 Build 7** | 2001-08-16 |
-| **Methodus 3 Build 8** | 2001-08-21 |
-| **Methodus 3 Build 9** | 2002-01-12; original site says fully compatible with Windows XP |
-
-See [Versions](docs/VERSIONS.md) for the detailed build-by-build changes.
-
-## Major feature groups
-
-### AOL / AIM
-
-AOL/AIM integration included chat tools, IM tools, faders, bots, answering-machine functionality, an IM Manager, AOL wallpaper customization and other scene-oriented utilities.
-
-### Crapster file sharing
-
-Methodus 3 integrated **Crapster**, a decentralized Gnutella-style file-sharing client that supported arbitrary file types, multiple downloads, resume, chat, shared-file/network statistics and system-tray operation.
-
-### FTP and web hosting
-
-The suite contained both FTP client/server functionality and a lightweight web server capable of serving webpages, images and downloads while monitoring visitors.
-
-### Multimedia
-
-Methodus 3 included CD Burner, CD Ripper and WAV-to-MP3 conversion functionality.
-
-### Interface customization
-
-Users could change skins, colors, buttons, backgrounds, startup screens and other UI elements. The site distributed Easy and Advanced Skin Maker programs, and Methodus Toolz 2 skins were advertised as compatible with Methodus 3.
-
-### Macro / text culture
-
-Methodus supported color faders, ASCII/macro creation, Font-to-Macro conversion and Chat Picture Scrolling, reflecting AOL chat-room culture of the period.
-
-See the complete [Feature Catalog](docs/FEATURES.md).
-
-## Timeline highlights
-
-- **2000:** Methodus Toolz 2.x-era website and download captures survive in the Wayback Machine.
-- **2001-07-29:** Methodus 3 Build 1 appears in the surviving official update history.
-- **2001-08-03:** Build 2 fixes IM Ignore and Port Scanner issues and improves Crapster uploads.
-- **2001-08-06:** Build 3 restores older Methodus Toolz 2 bots.
-- **2001-08-21:** Build 8 includes several Crapster, mail, and ActiveX/game fixes.
-- **2002-01-12:** Build 9 is described by the original site as fully compatible with Windows XP.
-
-The original Methodus 3 update page is preserved locally at [archive/site/methodus3/updates.html](archive/site/methodus3/updates.html).
-
-## Known preserved / recoverable material
-
-Research has identified:
-
-- Original Methodus2000 HTML pages and site structure
-- Methodus Toolz 2.x feature, download, screenshot, skin and development-related pages
-- Methodus 3 feature, FAQ, download and update/version-history pages
-- Historical screenshot filenames and image leads
-- Original and mirror download URLs
-- A cataloged **Methodus Toolz 3.0 for AOL 5.0–7.0** ZIP, approximately 4.7 MB
-- Historical executable/ZIP filename leads including `methodus.exe`, `methodus.zip`, `methodus3b1.exe` through `methodus3b9.exe`, and `methodus3b2.zip`
-- Original-site evidence for a VB6 Crapster research/source package
-- A Methodus-related Visual Basic submission by Jump0ffabuilding in Planet Source Code indexes
-- Later preservation pages and video evidence showing Methodus Toolz 2.0 in operation
-- Surviving skin/community pages containing contributor screen names
-
-## Original / surviving web pages
-
-- [Methodus2000](https://www.methodus2000.com/)
-- [Methodus 3 Features](https://www.methodus2000.com/methodus3/features.htm)
-- [Methodus 3 Updates / Version History](https://www.methodus2000.com/methodus3/updates.htm)
-- [Methodus 3 Skins](https://www.methodus2000.com/methodus3/skins.htm)
-- [Gnutella / Crapster Research](https://www.methodus2000.com/gnutella/)
-- [Wayback: Methodus Toolz Downloads](https://web.archive.org/web/20001109201900/http://www.methodus2000.com:80/methodustoolz/download.htm)
-- [Wayback: Methodus Toolz Features](https://web.archive.org/web/20001210191700/http://www.methodus2000.com:80/methodustoolz/features.htm)
-- [Wayback: Methodus Toolz Screenshots](https://web.archive.org/web/20010119035500/http://www.methodus2000.com:80/methodustoolz/screenshots.htm)
-
-More links and mirror provenance are indexed in [Sources & Provenance](docs/SOURCES.md).
-
-## Source code status
-
-**No verified complete original Methodus Toolz / Methodus 3 source tree has been recovered yet.** However, source-code evidence is now stronger than a generic language guess:
-
-- Original Methodus pages identify Visual Basic as the development environment.
-- The Methodus Gnutella research page explicitly describes VB6-compatible **Crapster source code** and related research tools.
-- Planet Source Code indexes identify a Methodus-related submission by Jump0ffabuilding.
-
-See [Source-Code Research](docs/CODE-RESEARCH.md) and [Source-Code Leads](docs/SOURCE-CODE-LEADS.md).
+| [History](docs/HISTORY.md) | Project background, creators and chronology |
+| [Versions](docs/VERSIONS.md) | Version/build history and known filenames |
+| [How It Worked](docs/HOW-IT-WORKED.md) | Architecture and component behavior |
+| [Features](docs/FEATURES.md) | Feature-by-feature catalog |
+| [Creators & Community](docs/CREATORS-AND-COMMUNITY.md) | ChiefDreegFleer, Jump0ffABuilding, Fungus Eye Entertainment and scene context |
+| [Downloads](docs/DOWNLOADS.md) | Recovery status and historical download evidence |
+| [Sources](docs/SOURCES.md) | Source/provenance index |
+| [Source Code](docs/CODE-RESEARCH.md) | VB/source-code evidence and research |
+| [Methodus Toolz site](archive/site/methodustoolz/) | Preserved 2.x-era site material |
+| [Methodus 3 site](archive/site/methodus3/) | Preserved Methodus 3 site material |
+| [VB source site](archive/site/vb/) | Recovered Methodus2000 development/source material |
+| [Screenshots](assets/screenshots/) | Images hosted directly in this repository |
+| [Downloads](downloads/) | Recovered program files hosted directly in this repository |
 
 ## Research standards
 
-Claims in this repository should be labeled by evidence type:
+Claims are separated by evidence type:
 
-- **Original-source** — surviving Methodus2000 pages/files
-- **Mirror/catalog** — later file archives or catalogs preserving names/files
-- **Retrospective** — later historical pages, videos, creator recollections or community descriptions
-- **Unverified lead** — plausible but not yet confirmed
+- **ORIGINAL-SITE** — surviving Methodus2000.com material
+- **ORIGINAL-FILE** — recovered file tied to original distribution/provenance
+- **MIRROR** — preserved third-party copy
+- **CATALOG** — metadata or archive-index evidence
+- **RETROSPECTIVE** — later recollections/articles/videos
+- **UNVERIFIED** — plausible lead not yet corroborated
 
-This keeps the archive useful for future researchers without turning assumptions into facts.
+## Repository topics
 
-## Suggested GitHub topics
-
-`aol` · `aim` · `methodus` · `methodus-toolz` · `methodus2000` · `aol-progs` · `internet-history` · `software-archaeology` · `digital-preservation` · `retro-computing` · `windows-xp` · `visual-basic` · `visual-basic-6` · `vb6` · `crapster` · `gnutella`
-
-## Contributing evidence
-
-Useful contributions include original Methodus files, screenshots, ZIPs, source code, old bookmarks, AOL prog collections, preserved website captures, readme/NFO files, hashes and first-hand historical context. Please include provenance wherever possible: where the file came from, approximate date, original filename and any known mirror URL.
+Suggested discovery terms: `aol`, `aim`, `methodus`, `methodus-toolz`, `methodus2000`, `aol-progs`, `internet-history`, `software-archaeology`, `digital-preservation`, `retro-computing`, `windows-xp`, `visual-basic`, `visual-basic-6`, `vb6`, `crapster`, `gnutella`.
 
 ---
 
 **Preservation project:** Rice2k / Methodus2000 Archive  
-**Purpose:** Digital preservation, historical research, and documentation of AOL-era software culture.
+**Purpose:** Digital preservation, software archaeology, historical research, and documentation of AOL-era software culture.
