@@ -1,6 +1,6 @@
 # Methodus 3 Screenshot Gallery
 
-These are recovered original Methodus 3 web/site screenshots preserved directly in this repository.
+These are recovered original Methodus 3 web/site screenshots preserved directly in this repository and checked against the recovered file sizes.
 
 ## Crapster
 
@@ -8,11 +8,11 @@ These are recovered original Methodus 3 web/site screenshots preserved directly 
 
 Original filename: `crapster2.gif`
 
-## CD Burner
+## KeySpy
 
-![Methodus 3 CD Burner](cdburner1.gif)
+![Methodus 3 KeySpy](keyspy2.gif)
 
-Original filename: `cdburner1.gif`
+Original filename: `keyspy2.gif`
 
 ## Font-to-Macro Converter
 
@@ -32,6 +32,6 @@ Original filename: `mp3enc2.gif`
 
 Original filename: `dirty2.gif`
 
-More images from the recovered Methodus2000 screenshot folder are being added as they are verified and copied from the archive.
+Additional verified originals remain in the recovered Methodus2000 screenshot folder and will be added only after their repository byte count matches the recovered source.
 
 > Historical screenshots are preserved for software-history and digital-preservation research. Some Methodus features reflected AOL-era security/abuse culture; this archive documents them without providing misuse instructions.
